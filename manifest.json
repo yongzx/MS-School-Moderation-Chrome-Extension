@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Minerva School Moderations Extension",
+  "description": "Transfer Addresses found in Google into Minerva School Moderations columns",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/*", "http://www.google.com/*  "
+      ],
+      "js": ["jquery-3.2.1.min.js", "content.js", "content2.js"]
+    }
+  ],
+  
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "background":{
+    "scripts": ["background.js"]
+  },
+
+  "permissions": ["tabs", "storage"]
+}
