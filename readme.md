@@ -10,8 +10,8 @@
 3. Click on "Load unpacked extension..." button and open the downloaded (and renamed) folder.
 4. The extension should appear on your Google Chrome.
 
-### Current Limitation
+### Current Limitations
 1. It is a chrome extension so it only works on Google Chrome.
 2. It works for US Schools (I have not tested it on schools from other regions.)
-3. It only works when the school address shows up on the right side of the Google search page after you click on the "Google this School" button in the School Moderation Page.
+3. It only works when the school address shows up on the right side of the Google search page after you click on the "Google this school" button in the School Moderation Page.
 
