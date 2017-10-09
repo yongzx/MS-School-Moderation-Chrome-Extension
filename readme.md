@@ -6,7 +6,7 @@
 
 ### How to install
 1. Download the entire 'src' folder. You can rename it after you download it.
-2. Open the extension setting in Google Chrome by typing `chrome://extensions/` in the address bar.
+2. Open the extension setting in Google Chrome by typing `chrome://extensions/` in the Google Chrome address bar.
 3. Click on "Load unpacked extension..." button and open the downloaded (and renamed) folder.
 4. The extension should appear on your Google Chrome.
 
