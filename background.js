@@ -1,3 +1,0 @@
-chrome.runtime.onConnect.addListener(function(port){
-    port.postMessage({received: "Received"});
-})

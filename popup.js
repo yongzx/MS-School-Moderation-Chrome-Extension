@@ -1,10 +1,10 @@
-function doContent(){
-    chrome.tabs.executeScript(null, {file: "content.js"});
+function getAddress(){
+    chrome.tabs.executeScript({file: "getAddressOnClick.js"});
 };
 
-function doTarget(){
-    chrome.tabs.executeScript(null, {file: "content2.js"});
+function pasteAddress(){
+    chrome.tabs.executeScript(null, {file: "pasteAddressOnClick.js"});
 };
 
-document.getElementById("Source").onclick = doContent;
-document.getElementById("Target").onclick = doTarget;
+document.getElementById("getAddress").addEventListener('click', getAddress);
+document.getElementById("pasteAddress").addEventListener('click', pasteAddress);

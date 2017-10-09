@@ -6,9 +6,9 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.google.com/*", "http://www.google.com/*  "
+        "https://www.google.com/search?q=*", "https://www.minerva.kgi.edu/admin/schools_moderation?*"
       ],
-      "js": ["jquery-3.2.1.min.js", "content.js", "content2.js"]
+      "js": ["jquery-3.2.1.min.js", "pasteAddressOnClick.js"]
     }
   ],
   
@@ -18,8 +18,9 @@
   },
 
   "background":{
-    "scripts": ["background.js"]
+    "scripts": ["background.js"],
+    "persistent": false
   },
 
-  "permissions": ["tabs", "storage"]
+  "permissions": ["tabs", "storage", "<all_urls>"]
 }
