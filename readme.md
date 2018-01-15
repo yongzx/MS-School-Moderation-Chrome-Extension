@@ -5,15 +5,15 @@
 
 ### How Copy-Pasting works
 ##### Situation 1
-![alt text](https://github.com/yongzx/MS-School-Moderation-Chrome-Extension/blob/master/src/MS-School-Moderation-Chrome-Extension-How-To-Use.gif "How It Works")
+![alt text](https://github.com/yongzx/MS-School-Moderation-Chrome-Extension/blob/master/src/gifs/MS-School-Moderation-Chrome-Extension-How-To-Use.gif)
 
 
 ##### Situation 2
-![alt text](https://github.com/yongzx/MS-School-Moderation-Chrome-Extension/blob/master/src/MS-School-Moderation-Chrome-Extension-How-To-Use2.gif "How It Works 2")
+![alt text](https://github.com/yongzx/MS-School-Moderation-Chrome-Extension/blob/master/src/gifs/MS-School-Moderation-Chrome-Extension-How-To-Use2.gif)
 
 
 ### How DeDuplication Works
-![alt text](https://github.com/yongzx/MS-School-Moderation-Chrome-Extension/blob/master/src/MS-School-Moderation-Chrome-Extension-DeDuplication.gif)
+![alt text](https://github.com/yongzx/MS-School-Moderation-Chrome-Extension/blob/master/src/gifs/MS-School-Moderation-Chrome-Extension-DeDuplication.gif)
 
 ### How to install
 1. Download the entire 'src' folder. You can rename it after you download it.
